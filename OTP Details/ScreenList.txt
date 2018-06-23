@@ -1,0 +1,17 @@
+Sender Side :
+    PhoneConfirmation - Fetch the phone number and ask them if they are willing to share the OTP in that number
+    Confirmation screen - Should be an option in the main page asking the user if they are willing to share OTP with that number
+    Tracker Screen - SHow the list of people who are allowed to access
+
+Receiver Side :
+    PhoneConfirmation - Fetch the phone number and show the contact list so that they can choose the person to follow
+    Confirmation Screen - Show a screen if the invite has been accepted
+    Tracker Screen - Show details about the person they are following
+
+Common Pages :
+    Google Login
+    Select Sender / Reciever (PhoneConfirmation)
+    Main Screen - List of all SMS with OTP
+    Tracket Screen
+
+Future Enhancements:

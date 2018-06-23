@@ -1,0 +1,35 @@
+Agent :
+
+1. Login Page
+    1.a. Google Login
+    1.b. Post the details in the Firebase server
+    1.c. Ask for Sender / Receiver
+    1.d. If sender post the details to the server
+
+2. Util
+    2.a. Database Util
+    2.b. SharedPrefs Util
+    2.c. Logger Util
+    2.d. Firebase Util
+
+3. Broadcast
+    3.a. Receiver side - Register a broadcast to sender
+        3.a.1. Send an error message if the sender is not already in the app
+    3.b. Notify the user about the receiver and get permission
+
+4. Main Screen
+    4.a. Store the data in the DB Util
+    4.b. List all the SMS 
+    4.c. Give some kind of customization when clicking the message
+
+5. SMS Service
+    5.a. SMS Listener in the sender phone
+        5.a.1. Separate OTP message and normal message 
+        5.a.2. Post data to server when OTP is recieved
+        5.a.3. Start a wake up for all receiver
+    5.b. Wake up the device with the notification content when OTP is received
+
+
+Server:
+    Might need a logic for subscription
+    Cron job to delete the data

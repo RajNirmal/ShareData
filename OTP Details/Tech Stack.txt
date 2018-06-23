@@ -1,0 +1,5 @@
+Android
+FCM Server to store data
+SQLite to store data in android internally
+FCM wake up for devices
+Subscribe to a group
